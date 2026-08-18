@@ -1,0 +1,20 @@
+<head>
+    <meta name= "viewport" content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+</head>
+
+<body>
+    <div class="container">
+        <h2>DBS Share Prediction/h2>
+        <h4> Please enter the exchange rate 1USD to ?SGD</h4>
+        <form action="/result" method="post">
+            <input type = "number" name = "q">
+            <input type = "submit" value= "Enter">
+        </form>
+        <form action="/main" method="post">
+            <input type = "submit" value= "Main">
+        </form>
+    </div>
+</body>
+
+
