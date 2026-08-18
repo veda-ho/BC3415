@@ -1,0 +1,2 @@
+flask
+gunicorn #to communicate front end and backend
