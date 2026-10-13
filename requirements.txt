@@ -2,3 +2,4 @@ flask
 gunicorn #to communicate front end and backend
 joblib #cloud
 scikit-learn #codespace
+groq
